@@ -4,5 +4,5 @@ cat src/CurrentVersion.json
 
 cd ../Concat17.github.io
 find . -name "*.bak" -type f -delete
-cp -r ../nugareact2/dist/. ./
+cp -r ../nuga/dist/. ./
 ./commit.sh
