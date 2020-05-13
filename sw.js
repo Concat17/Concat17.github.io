@@ -25,7 +25,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "index.html",
-    "revision": "da60d87cd01bbfc012874eec5f918a2b"
+    "revision": "2e426557a27c641f488dae3a5a6a2f3c"
   },
   {
     "url": "src.9ee21403.js",
@@ -37,7 +37,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/",
-    "revision": "0af71d2fd69aee1d26b4057f7bb9e20e"
+    "revision": "4ec6de2433d05bd793161ea84ce4fbdc"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
