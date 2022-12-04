@@ -7,14 +7,19 @@ export const theme = extendTheme({
         color: "gray.200",
       },
       variants: {
-        list: {
-          color: "cyan.200",
+        link: {
+          color: "cyan.500",
         },
       },
     },
     Heading: {
       baseStyle: {
-        color: "cyan.300",
+        color: "cyan.200",
+      },
+      variants: {
+        link: {
+          color: "cyan.500",
+        },
       },
     },
   },
