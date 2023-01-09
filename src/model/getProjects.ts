@@ -21,5 +21,13 @@ export const getProjects = (): ProjectType[] => {
     repoUrl: "https://github.com/Concat17/todo",
   };
 
-  return [profilesProject, todoProject];
+  const adviserProject: ProjectType = {
+    name: "Adviser",
+    description: `Приложение, показывающее советы`,
+    url: "https://adviser-xi.vercel.app/",
+    previewImgUrl: "https://iili.io/H7dG7mN.png",
+    repoUrl: "https://github.com/Concat17/adviser",
+  };
+
+  return [profilesProject, todoProject, adviserProject];
 };
